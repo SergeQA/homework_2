@@ -1,0 +1,26 @@
+---
+TEST 1
+
+Launch app
+Tap on Contact
+Check contact info
+
+
+TEST 2
+
+Launch app
+Scroll down
+Tap on last element
+
+
+TEST 3
+
+Launch app
+Tap on + button
+Check toast message is displayed
+
+
+TEST 4
+
+Launch app
+Check that search returns all the matched values

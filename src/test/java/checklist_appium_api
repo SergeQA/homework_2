@@ -1,0 +1,24 @@
+DRIVER API
+
+driver.findElement();
+driver.findElements();
+driver.getContextHandles(); // returns set of context for mobile app
+driver.context(); // sets context
+driver.findElementByClassName(); // alias
+driver.launchApp();
+driver.getPageSource();
+driver.manage().timeouts().implicitlyWait(); // managing waits
+driver.get("https://google.com.ua"); // opens page
+
+driver.rotate(ScreenOrientation.PORTRAIT);
+driver.rotate(ScreenOrientation.LANDSCAPE);
+
+
+MobileElement element = driver.findElementByXPath("//xpathExpression");
+element.getCoordinates();
+element.click(); // clicks on element
+element.getText();
+element.setValue("any value");
+element.sendKeys();
+element.getCssValue("background-color");
+boolean displayed = element.isDisplayed();
