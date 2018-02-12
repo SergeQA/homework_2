@@ -116,9 +116,14 @@ public class FirstTest {
         driver.launchApp();
         String locatorForSearch = "com.jayway.contacts:id/main_search";
         MobileElement searchField = driver.findElement(By.id(locatorForSearch));
+        String locatorForFoundContact = "com.jayway.contacts:id/name";
         searchField.click();
         searchField.sendKeys("jenn");
+        List<MobileElement> foundContacts = driver.findElements(By.id(locatorForFoundContact));
+        int foundNumber = foundContacts.size();
+        for (int j = 0, j < foundNumber, j++){
 
+        }
 
 
     }
